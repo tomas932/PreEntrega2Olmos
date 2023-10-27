@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #c7f9cc;
+    background-color: #b5e48c;
 }
 
 /* HEADER */
@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #57cc99;
+    background-color: #168aad;
     position: sticky;
     top: 0;
 }
@@ -23,6 +23,7 @@ header {
     width: 250px;
 
 }
+
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -45,23 +46,51 @@ h1 {
 }
 
 h2 {
-    padding-left: 20px;
-    margin: 10px 5px;
-    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
 }
 
 p {
     margin: 15px 10px 15px;
     font-size: 20px;
+    text-align: center;
 }
 
 .cultivo {
-    background-position: right center;
+    
+}
+.contenedorImagen {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 30px;
+    border-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 
-.linkRedes {
+.redesSociales {
     color: blue;
-    text-decoration: underline;
     text-transform: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.redesSociales i {
+    font-size: 40px;
+    padding: 0px 20px 0px 20px;
+}
+
+.redesSociales i:hover {
+    scale: 1.1;
+    transition: 4000;
+}
+
+.copy {
+    font-size: small;
 }
