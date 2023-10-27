@@ -1,0 +1,67 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #c7f9cc;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #57cc99;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 250px;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: 50px;
+}
+
+h2 {
+    padding-left: 20px;
+    margin: 10px 5px;
+    font-size: 30px;
+}
+
+p {
+    margin: 15px 10px 15px;
+    font-size: 20px;
+}
+
+.cultivo {
+    background-position: right center;
+}
+
+
+.linkRedes {
+    color: blue;
+    text-decoration: underline;
+    text-transform: none;
+}
