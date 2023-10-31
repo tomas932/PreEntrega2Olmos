@@ -1,11 +1,10 @@
-
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
 body {
-    background-color: #b5e48c;
+    background-color: #fffffc;
 }
 
 /* HEADER */
@@ -15,8 +14,6 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #168aad;
-    position: sticky;
-    top: 0;
 }
 
 .logo {
@@ -57,9 +54,7 @@ p {
     text-align: center;
 }
 
-.cultivo {
-    
-}
+
 .contenedorImagen {
     text-align: center;
     display: flex;
@@ -93,4 +88,34 @@ p {
 
 .copy {
     font-size: small;
+}
+
+.content-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 18rem;
+    margin: 1rem;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 300px;
+}
+
+
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: calc(100% - 2rem);
+    }
 }
