@@ -7,6 +7,19 @@ body {
     background-color: #fffffc;
 }
 
+.footer {
+    background-color: #d9ed92;
+}
+
+.footerTexto{
+    color: #168aad;
+}
+
+.redesSociales i {
+    color:#168aad;
+}
+
+
 /* HEADER */
 
 header {
@@ -106,16 +119,45 @@ p {
     height: 300px;
 }
 
+.contenedorCurso {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.tituloDeCursos{
+    text-align: center;
+}
+
+.contenedorPadreLi {
+    text-align: center;
+}
+
+.beneficiosAlimentacion {
+    text-decoration: none;
+}
 
 
 @media (max-width: 768px) {
     .card {
         width: calc(50% - 2rem);
     }
+    .contenedorCurso {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 576px) {
     .card {
         width: calc(100% - 2rem);
+    }
+    .contenedorCurso {
+        flex-direction: column;
+    }
+
+    .contenedorVideo{
+        display: flex;
+        justify-content: center;
+        transform: scale(0.9);
     }
 }
