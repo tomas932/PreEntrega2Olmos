@@ -2,21 +2,25 @@
     padding: 0px;
     margin: 0px;
 }
+:root {
+    --color-primario: #168aad;
+    --color-secundario: #d9ed92;
+}
 
 body {
     background-color: #fafafa;
 }
 
 .footer {
-    background-color: #d9ed92;
+    background-color: var(--color-secundario);
 }
 
 .footerTexto{
-    color: #168aad;
+    color: var(--color-primario);
 }
 
 .redesSociales i {
-    color:#168aad;
+    color:var(--color-primario);
 }
 
 
@@ -26,7 +30,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #168aad;
+    background-color: var(--color-primario);
 }
 
 .logo {
@@ -157,6 +161,21 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.textoNosotros {
+    line-height: 2;
+    font-weight: lighter;
+}
+
+.listas:hover {
+    scale: 1.1;
+    transition: 4000;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+}
+
+.listas a:hover {
+    color: var(--color-primario);
+}
 
 @media (max-width: 768px) {
     .card {
@@ -167,6 +186,15 @@ p {
     }
     .contenedorForm {
         height: 500px;
+    }
+    .tituloNosotros {
+        text-align: center;
+        padding: 10px;
+        width: 90%;
+        font-size: 30px;
+    }
+    .textoNosotros {
+        font-size: 20px;
     }
 }
 
@@ -182,5 +210,14 @@ p {
         display: flex;
         justify-content: center;
         transform: scale(0.9);
+    }
+    .tituloNosotros {
+        text-align: center;
+        padding: 10px;
+        width: 90%;
+        font-size: 20px;
+    }
+    .textoNosotros {
+        font-size: 12px;
     }
 }
