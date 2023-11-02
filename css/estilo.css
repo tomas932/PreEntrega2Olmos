@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #fffffc;
+    background-color: #fafafa;
 }
 
 .footer {
@@ -41,7 +41,7 @@ nav ul li {
     text-align: center;
 }
 
-a {
+.elementoNav {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -130,11 +130,31 @@ p {
 }
 
 .contenedorPadreLi {
-    text-align: center;
+    padding: 0px;
+    list-style-type: none;
 }
 
 .beneficiosAlimentacion {
-    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.contenedorSeccion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contenedorForm {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0px;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -144,6 +164,9 @@ p {
     }
     .contenedorCurso {
         flex-direction: column;
+    }
+    .contenedorForm {
+        height: 500px;
     }
 }
 
