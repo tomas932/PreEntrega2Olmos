@@ -133,9 +133,13 @@ p {
     text-align: center;
 }
 
+.subtituloDeCursos {
+    text-align: center;
+}
+
 .contenedorPadreLi {
     padding: 0px;
-    list-style-type: none;
+    list-style: none;
 }
 
 .beneficiosAlimentacion {
@@ -175,6 +179,21 @@ p {
 
 .listas a:hover {
     color: var(--color-primario);
+}
+
+.contenedorVideo {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenDeForraje {
+    width: 50%;
+    padding: 10px;
+}
+
+.ventajasForraje {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
