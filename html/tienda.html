@@ -9,131 +9,167 @@
     <title>Tienda-Hidropónica</title>
     <link rel="shortcut icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/estilo.css">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        
+
 </head>
 
 <body>
     <!-- HEADER -->
     <header>
-        <img class="logo" src="../img/logo.png" alt="Logo">
-
-        <nav>
-            <ul>
-                <li class="listas"><a class="elementoNav" href="../index.html">Inicio</a></li>
-                <li class="listas"><a class="elementoNav" href="tienda.html">Tienda</a></li>
-                <li class="listas"><a class="elementoNav" href="cursos.html">Cursos</a></li>
-                <li class="listas"><a class="elementoNav" href="nosotros.html">Nosotros</a></li>
-                <li class="listas"><a class="elementoNav" href="contactanos.html">Contactanos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="../img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <div class="content-card">
-        <div class="card" style="width: 18rem;">
-            <img src="../img/producto-1.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Jabón Potásico - Acaricida e Insecticida Glacoxan 200cc</h5>
-                <p class="card-text overflow-auto" style="max-height: 200px;">GLACOXAN JABÓN POTÁSICO es un producto
-                    biodegradable, que actua como preventivo y
-                    repelente de plagas. </p>
-                <a href="#" class="btn btn-primary">Ver detalles</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="../img/producto-2.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Sales minerales Hidroponia - Solución Nutritiva Completa (ABCD) - Fertilizante
-                </h5>
-                <p class="card-text overflow-auto" style="max-height: 200px;">Fertilizante ideal para sistemas
-                    hidropónicos, tanto para invernaderos como para
-                    interiores. Apto para cultivos medicinales. Todas nuestras sales minerales cuentan con servicio post
-                    venta de asesoramiento para su uso correcto. </p>
-                <a href="#" class="btn btn-primary">Ver detalles</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="../img/producto-3.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Nutrientes Hidroponia Solución Nutritiva 1 Litro - Pack X 2</h5>
-                <p class="card-text overflow-auto" style="max-height: 200px;">Solución de nutrientes HYDROVERDEAGUA® es
-                    una formula concentrada diseñada para
-                    complementar el programa nutritivo de los sistemas hidropónicos y maximizar el desarrollo
-                    vegetativo.</p>
-                <a href="#" class="btn btn-primary">Ver detalles</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="../img/producto-4.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Solución Nutritiva Hidropónica Concentrada Kit A-B-C - verduras de hoja,
-                    pimiento, pepino, aji, berenjena rinde 200L</h5>
-                <p class="card-text overflow-auto" style="max-height: 200px;">La solución nutritiva concentrada A-B-C de
-                    Hidropónika para preparar 200 litros de
-                    solución nutritiva se ha formulado con productos certificados de alta calidad y es ideal para los
-                    siguientes cultivos hidropónicos: verduras de hoja tales como lechugas, espinacas, acelga, entre
-                    otros.</p>
-                <a href="#" class="btn btn-primary">Ver detalles</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="../img/producto-5.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">NUTRIENTES HIDROPÓNICOS LÍQUIDOS</h5>
-                <p class="card-text overflow-auto" style="max-height: 200px;">Los Nutrientes hidropónicos líquidos, son
-                    unos fertilizantes con una presentación
-                    que consta de dos recipientes, en uno de ellos se encuentran diluidos los elementos mayores,
-                    (aquellos que las plantas requieren en mayor medida) y con un volumen de 1000 cc,. Por otra parte,
-                    el otro contiene los elementos menores que la planta requiere en menor proporción, este envase
-                    contiene 400 cc.</p>
-                <a href="#" class="btn btn-primary">Ver detalles</a>
-            </div>
-        </div>
-
-
-        <div class="card" style="width: 18rem;">
-            <img src="../img/producto-6.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Bandeja Forrajera Germinadora</h5>
-                <p class="card-text overflow-auto" style="max-height: 200px;"> Esta bandeja esta diseñada para la
-                    produccion de forraje verde hidroponico,
-                    permite la germinacion de especies como, AVENA, TRIGO O MAIZ.</p>
-                <a href="#" class="btn btn-primary">Ver detalles</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="../img/producto-7.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Lampara Led Bulbo A60 6w E27 Growlamp Uv Cultivo Interior</h5>
-                <p class="card-text overflow-auto" style="max-height: 200px;">Lampara Led 6W Bulbo A60 Growlamp está
-                    especialmente diseñada para el crecimiento
-                    de plantas. Aporta Rayos UV de espectro completo y funciona como repelente natural de insectos. De
-                    excelente calidad para ayudar en la germinación de plantas pequeñas.</p>
-                <a href="#" class="btn btn-primary">Ver detalles</a>
+    <main>
+        <div class="content-card">
+            <div class="card" style="width: 18rem;">
+                <img src="../img/producto-1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jabón Potásico - Acaricida e Insecticida Glacoxan 200cc</h5>
+                    <p class="card-text overflow-auto" style="max-height: 200px;">GLACOXAN JABÓN POTÁSICO es un producto
+                        biodegradable, que actua como preventivo y
+                        repelente de plagas. </p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
             </div>
 
-        </div>
-    </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/producto-2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sales minerales Hidroponia - Solución Nutritiva Completa (ABCD) -
+                        Fertilizante
+                    </h5>
+                    <p class="card-text overflow-auto" style="max-height: 200px;">Fertilizante ideal para sistemas
+                        hidropónicos, tanto para invernaderos como para
+                        interiores. Apto para cultivos medicinales. Todas nuestras sales minerales cuentan con servicio
+                        post
+                        venta de asesoramiento para su uso correcto. </p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
 
+            <div class="card" style="width: 18rem;">
+                <img src="../img/producto-3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nutrientes Hidroponia Solución Nutritiva 1 Litro - Pack X 2</h5>
+                    <p class="card-text overflow-auto" style="max-height: 200px;">Solución de nutrientes HYDROVERDEAGUA®
+                        es
+                        una formula concentrada diseñada para
+                        complementar el programa nutritivo de los sistemas hidropónicos y maximizar el desarrollo
+                        vegetativo.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/producto-4.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Solución Nutritiva Hidropónica Concentrada Kit A-B-C - verduras de hoja,
+                        pimiento, pepino, aji, berenjena rinde 200L</h5>
+                    <p class="card-text overflow-auto" style="max-height: 200px;">La solución nutritiva concentrada
+                        A-B-C de
+                        Hidropónika para preparar 200 litros de
+                        solución nutritiva se ha formulado con productos certificados de alta calidad y es ideal para
+                        los
+                        siguientes cultivos hidropónicos: verduras de hoja tales como lechugas, espinacas, acelga, entre
+                        otros.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/producto-5.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NUTRIENTES HIDROPÓNICOS LÍQUIDOS</h5>
+                    <p class="card-text overflow-auto" style="max-height: 200px;">Los Nutrientes hidropónicos líquidos,
+                        son
+                        unos fertilizantes con una presentación
+                        que consta de dos recipientes, en uno de ellos se encuentran diluidos los elementos mayores,
+                        (aquellos que las plantas requieren en mayor medida) y con un volumen de 1000 cc,. Por otra
+                        parte,
+                        el otro contiene los elementos menores que la planta requiere en menor proporción, este envase
+                        contiene 400 cc.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/producto-6.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bandeja Forrajera Germinadora</h5>
+                    <p class="card-text overflow-auto" style="max-height: 200px;"> Esta bandeja esta diseñada para la
+                        produccion de forraje verde hidroponico,
+                        permite la germinacion de especies como, AVENA, TRIGO O MAIZ.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/producto-7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lampara Led Bulbo A60 6w E27 Growlamp Uv Cultivo Interior</h5>
+                    <p class="card-text overflow-auto" style="max-height: 200px;">Lampara Led 6W Bulbo A60 Growlamp está
+                        especialmente diseñada para el crecimiento
+                        de plantas. Aporta Rayos UV de espectro completo y funciona como repelente natural de insectos.
+                        De
+                        excelente calidad para ayudar en la germinación de plantas pequeñas.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    
     <!-- Footer -->
     <footer class="footer">
         <div class="copy">
-        <p class="footerTexto">Hidroponia-Todos los derechos reservados</p>
+            <p class="footerTexto">Hidroponia-Todos los derechos reservados</p>
         </div>
         <div class="redesSociales">
-                <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook"></i>
             <i class="fab fa-youtube"></i>
-                <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram"></i>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/f03e3a4660.js" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
 </body>
 
 </html>

@@ -34,41 +34,54 @@ header {
 }
 
 .logo {
-    width: 250px;
+    width: 200px;
 
 }
+/* NAVBAR BOOTSTRAP */
 
-nav ul li {
+.navbar {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-expand-lg  {
+    background-color: #168aad;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* nav ul li { 
     list-style: none;
     display: inline-block;
     margin: 0 10px;
     text-align: center;
-}
+}*/
 
-.elementoNav {
+/* .elementoNav {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: #fafafa;
-}
+} */
 
 h1 {
     text-align: center;
     text-transform: uppercase;
     margin: 30px;
     font-size: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     text-align: center;
     text-transform: uppercase;
     margin: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     margin: 15px 10px 15px;
     font-size: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -76,12 +89,14 @@ p {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     border-top: 30px;
     border-bottom: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
 
+.cultivo {
+    width: 1000px;
 }
 
 
