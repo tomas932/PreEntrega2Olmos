@@ -1,0 +1,211 @@
+$color_1: var(--color-primario);
+$color_2: blue;
+$font-family_1: 'Roboto', sans-serif;
+$background-color_1: #fafafa;
+$background-color_2: var(--color-secundario);
+$background-color_3: var(--color-primario);
+$background-color_4: #168aad;
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+:root {
+	--color-primario: #168aad;
+	--color-secundario: #d9ed92;
+}
+body {
+	background-color: $background-color_1;
+}
+.footer {
+	background-color: $background-color_2;
+}
+.footerTexto {
+	color: $color_1;
+}
+.redesSociales {
+	i {
+		color: $color_1;
+		font-size: 40px;
+		padding: 0px 20px 0px 20px;
+		:hover {
+			scale: 1.1;
+			transition: 4000;
+		}
+	}
+	color: $color_2;
+	text-transform: none;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $background-color_3;
+}
+.logo {
+	width: 200px;
+}
+.navbar {
+	font-family: $font-family_1;
+}
+.navbar-expand-lg {
+	background-color: $background-color_4;
+	font-family: $font-family_1;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px;
+	font-size: 50px;
+	font-family: $font-family_1;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px;
+	font-family: $font-family_1;
+}
+p {
+	margin: 15px 10px 15px;
+	font-size: 20px;
+	text-align: center;
+	font-family: $font-family_1;
+}
+.contenedorImagen {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	border-top: 30px;
+	border-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.cultivo {
+	width: 1000px;
+}
+.copy {
+	font-size: small;
+}
+.content-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card {
+	width: 18rem;
+	margin: 1rem;
+}
+.card-img-top {
+	width: 150px;
+	height: 300px;
+}
+.contenedorCurso {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+.tituloDeCursos {
+	text-align: center;
+}
+.subtituloDeCursos {
+	text-align: center;
+}
+.contenedorPadreLi {
+	padding: 0px;
+	list-style: none;
+}
+.beneficiosAlimentacion {
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-left: 20px;
+}
+.contenedorSeccion {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+.contenedorForm {
+	width: 300px;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 0px;
+	height: 60vh;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.textoNosotros {
+	line-height: 2;
+	font-weight: lighter;
+}
+.listas {
+	:hover {
+		scale: 1.1;
+		transition: 4000;
+		background-color: $background-color_2;
+		color: $color_1;
+	}
+	a {
+		:hover {
+			color: $color_1;
+		}
+	}
+}
+.contenedorVideo {
+	display: flex;
+	justify-content: center;
+}
+.imagenDeForraje {
+	width: 50%;
+	padding: 10px;
+}
+.ventajasForraje {
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 768px) {
+	.card {
+		width: calc(50% - 2rem);
+	}
+	.contenedorCurso {
+		flex-direction: column;
+	}
+	.contenedorForm {
+		height: 500px;
+	}
+	.tituloNosotros {
+		text-align: center;
+		padding: 10px;
+		width: 90%;
+		font-size: 30px;
+	}
+	.textoNosotros {
+		font-size: 20px;
+	}
+}
+@media (max-width: 576px) {
+	.card {
+		width: calc(100% - 2rem);
+	}
+	.contenedorCurso {
+		flex-direction: column;
+	}
+	.contenedorVideo {
+		display: flex;
+		justify-content: center;
+		transform: scale(0.9);
+	}
+	.tituloNosotros {
+		text-align: center;
+		padding: 10px;
+		width: 90%;
+		font-size: 20px;
+	}
+	.textoNosotros {
+		font-size: 12px;
+	}
+}
+
